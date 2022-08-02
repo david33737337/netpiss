@@ -1,0 +1,135 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="img/netflix.svg" alt="Netflix" draggable="false" />
+            <a href="login/Login.aspx" draggable="false" class="login">Entrar</a>
+        </div>
+    </header>
+    <main>
+        <div class="email-login">
+            <div class="text-login">
+                <h1>Filmes, séries e muito mais. Sem limites.</h1>
+                <h2>Assista onde quiser. Cancele quando quiser.</h2>
+                <p>
+                    Pronto para assistir? Informe seu email para criar ou reiniciar sua
+            assinatura.
+                </p>
+            </div>
+            <div class="form">
+                <form>
+                    <input type="email" placeholder="Email" class="input" />
+                    <button>Vamos lá</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="gradient"></div>
+    </main>
+
+    <section class="section-tv">
+        <div class="container">
+            <div class="grid">
+                <div class="text-info">
+                    <h1>Aproveite na TV.</h1>
+                    <p>
+                        Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              aparelhos de Blu-ray e outros dispositivos.
+                    </p>
+                </div>
+                <div class="config-img">
+                    <img src="img/tv.png" alt="tv Netflix" />
+                    <video class="tv-video" autoplay playsinline muted loop>
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-dowload">
+        <div class="container">
+            <div class="grid">
+                <div class="text-info">
+                    <h1>Baixe séries para assistir offline.</h1>
+                    <p>
+                        Salve seus títulos favoritos e sempre tenha algo para assistir.
+                    </p>
+                </div>
+                <div class="config-img">
+                    <img src="img/el.jpg" alt="tv Netflix" />
+                    <div class="cardanimation">
+                        <div class="cardanimation-img">
+                            <img src="img/boxshot.png" alt="stranger things" />
+                        </div>
+                        <div class="cardanimation-text">
+                            <h2>Stranger Things</h2>
+                            <p>Download em andamento...</p>
+                        </div>
+                        <div class="animation-icon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-portable">
+        <div class="container">
+            <div class="grid">
+                <div class="text-info">
+                    <h1>Assista quando quiser.</h1>
+                    <p>
+                        Assista no celular, tablet, Smart TV ou notebook sem pagar a mais
+              por isso.
+                    </p>
+                </div>
+                <div class="config-img">
+                    <img src="img/device-pile.png" alt="device plataform" />
+                    <video class="portable-video" autoplay playsinline muted loop>
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-kids">
+        <div class="container">
+            <div class="grid">
+                <div class="text-info">
+                    <h1>Crie perfis para crianças.</h1>
+                    <p>
+                        Deixe as crianças se aventurarem com seus personagens favoritos em
+              um espaço feito só para elas, sem pagar a mais por isso.
+                    </p>
+                </div>
+                <div class="img-infantil">
+                    <img src="img/infantil.png" alt="tv Netflix" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="fomr">
+            <form class="">
+                <input type="email" placeholder="Email" class="input" />
+                <button class="btnFooter">Vamos lá</button>
+            </form>
+        </div>
+
+        <p>Copyryght-© 2022 Netflix Brasil -Deviego</p>
+    </footer>
+</body>
+</html>
