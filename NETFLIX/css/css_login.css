@@ -1,0 +1,36 @@
+﻿.background {
+    background-image: url('../img/bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    height: 70vh;
+    width: 30vw;
+    background-color: #000000cd;
+    color: #ffff;
+    border-radius: 5px;
+    margin: auto auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 15vw;
+    height: 30px;
+}
+
+.TXT {
+    width: 15vw;
+    height: 30px;
+    background-color: #313131;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.dati {
+    margin: 15vh auto 0 auto;
+    width: 15vw;
+}

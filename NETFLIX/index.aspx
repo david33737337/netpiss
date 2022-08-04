@@ -14,23 +14,22 @@
     <header>
         <div class="nav">
             <img src="img/netflix.svg" alt="Netflix" draggable="false" />
-            <a href="login/Login.aspx" draggable="false" class="login">Entrar</a>
+            <a href="login/Login.aspx" draggable="false" class="login">Accedi</a>
         </div>
     </header>
     <main>
         <div class="email-login">
             <div class="text-login">
-                <h1>Filmes, séries e muito mais. Sem limites.</h1>
-                <h2>Assista onde quiser. Cancele quando quiser.</h2>
+                <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
+                <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
                 <p>
-                    Pronto para assistir? Informe seu email para criar ou reiniciar sua
-            assinatura.
+                    Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.
                 </p>
             </div>
             <div class="form">
                 <form>
                     <input type="email" placeholder="Email" class="input" />
-                    <button>Vamos lá</button>
+                    <button>Inizia</button>
                 </form>
             </div>
 
@@ -43,10 +42,11 @@
         <div class="container">
             <div class="grid">
                 <div class="text-info">
-                    <h1>Aproveite na TV.</h1>
+                    <h1>Goditi Netflix sulla tua 
+                        TV.</h1>
                     <p>
-                        Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-              aparelhos de Blu-ray e outros dispositivos.
+                        Guarda Netflix su smart TV, Playstation, Xbox, Chromecast, Apple TV, 
+                        lettori Blu-ray e molti altri dispositivi.
                     </p>
                 </div>
                 <div class="config-img">
@@ -63,9 +63,11 @@
         <div class="container">
             <div class="grid">
                 <div class="text-info">
-                    <h1>Baixe séries para assistir offline.</h1>
+                    <h1>Scarica le tue serie da 
+                        guardare offline.</h1>
                     <p>
-                        Salve seus títulos favoritos e sempre tenha algo para assistir.
+                        Salva facilmente i tuoi preferiti così avrai 
+                        sempre qualcosa da guardare.
                     </p>
                 </div>
                 <div class="config-img">
@@ -76,7 +78,7 @@
                         </div>
                         <div class="cardanimation-text">
                             <h2>Stranger Things</h2>
-                            <p>Download em andamento...</p>
+                            <p>Download in corso...</p>
                         </div>
                         <div class="animation-icon"></div>
                     </div>
@@ -88,10 +90,12 @@
         <div class="container">
             <div class="grid">
                 <div class="text-info">
-                    <h1>Assista quando quiser.</h1>
+                    <h1>Guarda Netflix 
+                        ovunque.</h1>
                     <p>
-                        Assista no celular, tablet, Smart TV ou notebook sem pagar a mais
-              por isso.
+                        Cellulare, tablet, laptop e TV: scegli tu cosa 
+                        usare per guardare in streaming film e serie TV 
+                        senza limiti e senza spendere di più.
                     </p>
                 </div>
                 <div class="config-img">
@@ -108,10 +112,13 @@
         <div class="container">
             <div class="grid">
                 <div class="text-info">
-                    <h1>Crie perfis para crianças.</h1>
+                    <h1>Crea profili per i 
+                        bambini.</h1>
                     <p>
-                        Deixe as crianças se aventurarem com seus personagens favoritos em
-              um espaço feito só para elas, sem pagar a mais por isso.
+                        I bambini scoprono nuove avventure in 
+                        compagnia dei loro personaggi preferiti in uno 
+                        spazio tutto loro già incluso nel tuo 
+                        abbonamento.
                     </p>
                 </div>
                 <div class="img-infantil">
@@ -121,15 +128,42 @@
         </div>
     </section>
 
-    <footer>
-        <div class="fomr">
-            <form class="">
-                <input type="email" placeholder="Email" class="input" />
-                <button class="btnFooter">Vamos lá</button>
-            </form>
-        </div>
-
-        <p>Copyryght-© 2022 Netflix Brasil -Deviego</p>
+    <footer>   
+        <table>
+            <tr>
+                <td>Domande frequenti</td>
+                 <td>Centro assistenza</td>
+                 <td>Account</td>
+                 <td>Media Center</td>
+            </tr>
+             <tr>
+                <td>Rapporti con gli
+                    investitori
+                </td>
+                 <td>Opportunità di lavoro</td>
+                 <td>Riscatta carte regalo</td>
+                 <td>Acquista carte regalo</td>
+            </tr>
+             <tr>
+                <td>Come guardare netflix</td>
+                 <td>Condizioni di utilizzo</td>
+                 <td>Privacy</td>
+                 <td>Preferenze per i cookie</td>
+            </tr>
+             <tr>
+                <td>Informazioni sull'azienda</td>
+                 <td>Contattaci</td>
+                 <td>Test di velocità</td>
+                 <td>Garanzia legale</td>
+            </tr>
+             <tr>
+                <td>note legali</td>
+                 <td>Solo su Netflix</td>
+                 <td> </td>
+                 <td> </td>
+            </tr>
+        </table>
+        <p>Copyryght-© 2022 Netflix Italia</p>
     </footer>
 </body>
 </html>
