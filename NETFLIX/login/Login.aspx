@@ -41,7 +41,7 @@
             </tr>
             <tr>
                 <td colspan="2"><%--label registrazione (inserire h ref al posto di clicca qui) e login--%>
-                    <asp:Label ID="lblRegistrazione" runat="server" Text="Non sei registrato? "></asp:Label><a href="../REGISTRAZIONE/Registrazione.aspx"><u> CLICCA QUI </u></a>
+                    <asp:Label ID="lblRegistrazione" runat="server" Text="Non sei registrato? "></asp:Label><a href="../signup/Registrazione.aspx"><u> CLICCA QUI </u></a>
                 </td>
             </tr>
         </table>
