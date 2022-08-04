@@ -37,7 +37,7 @@ public partial class Login : System.Web.UI.Page
 
         if (u.LOGIN() == true)
         {
-            Response.Redirect("/root/default.aspx");
+            Response.Redirect("/root/browse.aspx");
         }
 
         else

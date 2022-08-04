@@ -10,6 +10,9 @@
     <form id="form1" runat="server">
         <div>
             <h1>Browsing page</h1>
+            <a href="">Gestione Generi</a>
+            <a href="">Gestione Serie TV</a>
+            <a href="">Gestione Content</a>
         </div>
     </form>
 </body>
